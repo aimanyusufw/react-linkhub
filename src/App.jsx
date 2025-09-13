@@ -14,7 +14,7 @@ const App = () => {
       <div className="max-w-2xl mx-auto h-screen relative">
         {/* Header */}
         <div>
-          <div className="relative bg-black text-white py-48 md:py-72">
+          <div className="relative bg-black text-white py-40 md:py-72">
             <img
               src={"profile-2.jpg"}
               alt="Aiman Yusuf Wicaksono"
@@ -39,10 +39,10 @@ const App = () => {
                 <div key={data.name} className="w-full md:w-3/4 mx-auto">
                   <button
                     onClick={() => toggleGroup(data.name)}
-                    className="w-full py-5 relative px-10 flex items-center border rounded-full font-semibold"
+                    className="w-full py-3 px-8 md:py-5 relative md:px-10 flex items-center border rounded-full font-semibold"
                   >
                     <Icon className="w-6 h-6" />
-                    <span className="text-center w-full uppercase">
+                    <span className="text-center w-full uppercase text-sm md:text-lg">
                       {data.name}
                     </span>
                     <FaChevronDown
@@ -91,10 +91,10 @@ const App = () => {
                   href={data.isRelease ? data.url : "/"}
                   target={data.isRelease ? "_blank" : undefined}
                   key={data.url}
-                  className="py-5 relative px-10 flex items-center border rounded-full w-full md:w-3/4 mx-auto font-semibold"
+                  className="py-3 px-8 md:py-5 relative md:px-10 flex items-center border rounded-full w-full md:w-3/4 mx-auto font-semibold"
                 >
                   <Icon className="w-6 h-6" />
-                  <span className="text-center w-full uppercase">
+                  <span className="text-center text-sm md:text-lg w-full uppercase">
                     {data.name}
                   </span>
                   {!data.isRelease && (
