@@ -18,7 +18,7 @@ export const links = [
     isRelease: true,
   },
   {
-    url: "https://www.fiverr.com/s/e6AzzLm",
+    url: "https://www.fiverr.com/s/pdv99XG",
     name: "Fiverr Freelance",
     icon: TbBrandFiverr,
     isRelease: true,
@@ -28,31 +28,31 @@ export const links = [
     icon: IoChatbubblesOutline,
     children: [
       {
-        url: "https://www.linkedin.com/in/aiman",
+        url: "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
         name: "Linkedin",
         icon: FaLinkedinIn,
         isRelease: true,
       },
       {
-        url: "https://www.youtube.com/@aiman",
+        url: "http://www.youtube.com/@aimanyw",
         name: "Youtube",
         icon: FaYoutube,
         isRelease: false,
       },
       {
-        url: "https://instagram.com/aiman",
+        url: "https://www.instagram.com/aimanyusuf.me/",
         name: "Instagram",
         icon: FaInstagram,
         isRelease: true,
       },
       {
-        url: "https://tiktok.com/@aiman",
+        url: "https://www.tiktok.com/@aimanyusuf.me",
         name: "Tiktok",
         icon: FaTiktok,
         isRelease: true,
       },
       {
-        url: "https://twitter.com/aiman",
+        url: "https://x.com/aimanyw_",
         name: "X",
         icon: FaXTwitter,
         isRelease: true,
