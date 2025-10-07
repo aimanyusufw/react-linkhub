@@ -37,7 +37,7 @@ export const links = [
         url: "http://www.youtube.com/@aimanyw",
         name: "Youtube",
         icon: FaYoutube,
-        isRelease: false,
+        isRelease: true,
       },
       {
         url: "https://www.instagram.com/aimanyusuf.me/",
